@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
 
 body {
-    background-color: #1b1b1b;
+    background-color: #212121;
     font-family: 'Montserrat', sans-serif;
 }
-
+body {
+  background-color: #000000;
+}
 nav {
     position: fixed;
     top: 0;
     left: 0;
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
-    color: #fff;
+    color: #00fbff;
     display: flex;
     height: 7vw;
     width: 100%;
@@ -47,22 +49,22 @@ nav h1 {
 .content hr {
     border: 0;
     height: 4px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 251, 255), rgba(0, 0, 0, 0));
     margin: 1vw 0;
 }
-
+.text solidcolor 
 .search {
     display: flex;
     user-select: none;
-    margin-top: 2.5vw;
-    margin-left: 1.2vw;
+    margin-top: 5vw;
+    margin-left: 20vw;
 }
  
 .search input {
     background-color: #222222;
     border: none;
     border-radius: 1vw 0 0 1vw;
-    color: #fff;
+    color: #00e1ff;
     font-size: 1.5vw;
     font-weight: 600;
     padding: 0.8vw 1.5vw;
@@ -72,13 +74,13 @@ nav h1 {
 }
  
 .search input::placeholder {
-    color: #fff;
+    color: #00e1ff;
     font-weight: 600;
     font-size: 1.5vw;
 }
  
 .search button {
-    background-color: #fff;
+    background-color: #00e1ff;
     border: none;
     border-radius: 0 1vw 1vw 0;
     color:#222222;
@@ -129,7 +131,7 @@ nav h1 {
     margin: 1vw 1vw .4vw 1vw;
     width: 83.8%;
     text-align: left;
-    color: #fff;
+    color: #ffffff;
 }
 
 .featured .column {
@@ -161,7 +163,7 @@ nav h1 {
 .featured a {
     display: inline-block;
     position: relative;
-    color: #2c7ffc;
+    color: #ffffff;
     text-decoration: none;
 }
     
@@ -181,5 +183,5 @@ nav h1 {
     
     .featured .play-button i {
     font-size: 5vw;
-    text-shadow: 0 0 100px #2c7ffc;
+    text-shadow: 0 0 100px #ffffff;
     }
